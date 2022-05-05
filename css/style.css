@@ -1,0 +1,174 @@
+:root {
+	--box-margin: 10px;
+	--icon-size: 25px;
+}
+
+html,
+body {
+	overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212529;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+	line-height: 1.2;
+  }
+  
+  h1, .h1 {
+	font-size: calc(1.375rem + 1.5vw);
+  }
+  @media (min-width: 1200px) {
+	h1, .h1 {
+	  font-size: 2.5rem;
+	}
+  }
+  
+  h2, .h2 {
+	font-size: calc(1.325rem + 0.9vw);
+  }
+  @media (min-width: 1200px) {
+	h2, .h2 {
+	  font-size: 2rem;
+	}
+  }
+  
+  h3, .h3 {
+	font-size: calc(1.3rem + 0.6vw);
+  }
+  @media (min-width: 1200px) {
+	h3, .h3 {
+	  font-size: 1.75rem;
+	}
+  }
+  
+  h4, .h4 {
+	font-size: calc(1.275rem + 0.3vw);
+  }
+  @media (min-width: 1200px) {
+	h4, .h4 {
+	  font-size: 1.5rem;
+	}
+  }
+  
+  h5, .h5 {
+	font-size: 1.25rem;
+  }
+  
+  h6, .h6 {
+	font-size: 1rem;
+  }
+  
+  p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+  }
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+.main-background {
+	background: #AEC4EB;
+	width: 100%;
+	height: 100vh;
+	padding: 20px;
+	overflow-y: scroll;
+}
+
+.main-background > .panel {
+	background-color: ghostwhite;
+	border-radius: 10px;
+	margin: 5px 0;
+}
+
+.main-background > .panel:first-child {
+	margin-top: 0;
+}
+
+.main-background > .panel:last-child {
+	margin-bottom: 0;
+}
+
+.main-background > .panel > * {
+	border-radius: inherit;
+}
+
+i.icon {
+	display: inline-block;
+	width: var(--icon-size);
+	height: var(--icon-size);
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: left top;
+          mask-position: left top;
+  -webkit-mask-size: 100%;
+          mask-size: 100%;
+          mask-mode: luminance;
+}
+
+i.icon.white-icon {
+	background-color: #ffffff;
+}
+
+i.icon.black-icon {
+	background-color: #000000;
+}
+
+i.icon.open-outline {
+	-webkit-mask-image: url(../images/icons/open-outline.svg);
+          mask-image: url(../images/icons/open-outline.svg);
+}
+
+i.icon.people-outline {
+	-webkit-mask-image: url(../images/icons/people-outline.svg);
+          mask-image: url(../images/icons/people-outline.svg);
+}
+
+i.icon.eye-outline {
+	-webkit-mask-image: url(../images/icons/eye-outline.svg);
+   	      mask-image: url(../images/icons/eye-outline.svg);
+}
+
+i.icon.flag-outline {
+	-webkit-mask-image: url(../images/icons/flag-outline.svg);
+   	      mask-image: url(../images/icons/flag-outline.svg);
+}
+
+i.icon.lock-closed-outline {
+	-webkit-mask-image: url(../images/icons/lock-closed-outline.svg);
+   	      mask-image: url(../images/icons/lock-closed-outline.svg);
+}
+
+i.icon.paper-plane-outline {
+	-webkit-mask-image: url(../images/icons/paper-plane-outline.svg);
+   	      mask-image: url(../images/icons/paper-plane-outline.svg);
+}
+
+i.icon.logo-facebook {
+	-webkit-mask-image: url(../images/icons/logo-facebook.svg);
+   	      mask-image: url(../images/icons/logo-facebook.svg);
+}
+
+i.icon.logo-instagram {
+	-webkit-mask-image: url(../images/icons/logo-instagram.svg);
+   	      mask-image: url(../images/icons/logo-instagram.svg);
+}
+
+i.icon.refresh-outline {
+	-webkit-mask-image: url(../images/icons/refresh-outline.svg);
+   	      mask-image: url(../images/icons/refresh-outline.svg);
+}
