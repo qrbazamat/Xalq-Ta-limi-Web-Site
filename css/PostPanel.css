@@ -135,14 +135,13 @@
 
 .post-modal {
     position: fixed;
-    /* display: flex; */
     justify-content: center;
     width: 100vw;
     height: 100vh;
     background: #000000db;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    z-index: 999;
+    z-index: 99999 !important;
     overflow-y: scroll;
     transition: all .6s ease-in-out;
 }

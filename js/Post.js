@@ -38,7 +38,8 @@ const renderUI = (posts, selectorUI) => {
         const postImg = createElement('div', 'post-image');
         const openBtn = createElement('div', 'post-image-open-btn');
         const openBtnIcon = createElement('i', 'icon white-icon open-outline');
-        const img = createElement('img');
+        const img = createElement('img', 'lazy');
+        img.loading = 'lazy'
         const title = createElement('h3', 'title');
         const timeViews = createElement('div', 'time-views');
         const time = createElement('div', 'time');

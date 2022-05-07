@@ -6,19 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xalq talimi bo'limi</title>
+    <link rel="stylesheet" href="./js/aos/aos.css">
+    <link rel="stylesheet" href="./css/GridUtility.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/TopBanner.css">
+    <link rel="stylesheet" href="./css/Navbar.css">
     <link rel="stylesheet" href="./css/PostMenu.css">
     <link rel="stylesheet" href="./css/PostPanel.css">
+    <link rel="stylesheet" href="./css/About.css">
+    <link rel="stylesheet" href="./js/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/Contact.css">
     <link rel="stylesheet" href="./css/Footer.css">
 </head>
 
 <body>
-    <div class="main-background">
-        <section class="panel">
+    <div class="main-background" id="top">
+        <section class="panel top-bar-panel">
             <div class="top-bar">
                 <div class="banner">
-                    <div class="content">
+                    <div class="content" data-aos="fade-up" data-aos-delay="100">
                         <div class="item">
                             <i class="icon white-icon people-outline"></i>
                             <span>1 700 000</span>
@@ -37,34 +43,52 @@
                         </div>
                     </div>
                 </div>
-                <div class="navbar">
-                    <div class="logo">
-                        <img src="images/UzEDU-Logo.png" alt="">
-                        <h4 class="title">XTBT</h4>
-                    </div>
-                    <div class="links">
-                        <a href="#">
-                            <h4 class="active">Asosiy</h4>
-                        </a>
-                        <a href="">
-                            <h4>Haqida</h4>
-                        </a>
-                        <a href="">
-                            <h4>Aloqa</h4>
-                        </a>
-                    </div>
-                    <div class="language">
-                        <select class="h4" name="language" id="language">
-                            <option value="lotin">o'zbekcha</option>
-                            <option value="kril">ўзбекча</option>
-                        </select>
-                    </div>
+            </div>
+        </section>
+
+        <section class="panel navbar-panel">
+            <div class="navbar" id="navbar" data-aos="zoom-in" data-aos-delay="200">
+                <div class="logo">
+                    <img src="images/UzEDU-Logo.png" alt="">
+                    <h4 class="title">XTBT</h4>
+                </div>
+                <div class="links">
+                    <a href="#top" class="scrollto active">
+                        <h4>Asosiy</h4>
+                    </a>
+                    <a href="#about" class="scrollto">
+                        <h4>Haqida</h4>
+                    </a>
+                    <a href="#contact" class="scrollto">
+                        <h4>Aloqa</h4>
+                    </a>
+                </div>
+                <div class="language">
+                    <select class="h5" name="language" id="language">
+                        <option value="lotin">o'zbekcha</option>
+                        <option value="kril">ўзбекча</option>
+                    </select>
                 </div>
             </div>
         </section>
 
+        <ul class="fixed-navbar-menu">
+            <a href="#top" class="active">
+                <i class="icon white-icon home-outline"></i>
+            </a>
+            <a href="#about">
+                <i class="icon white-icon help-circle-outline"></i>
+            </a>
+            <a href="#address">
+                <i class="icon white-icon location-outline"></i>
+            </a>
+            <a href="#contact">
+                <i class="icon white-icon call-outline"></i>
+            </a>
+        </ul>
+
         <section class="panel">
-            <div class="post-menu">
+            <div class="post-menu" data-aos="fade-down">
                 <div class="menu">
                     <div class="c-txt">
                         <div class="lr txt">So'ngi yangiliklar</div>
@@ -101,22 +125,291 @@
             </div>
         </section>
 
-        <section class="panel">
-            <div class="about-panel">
-                <div style="font-size: 40px;padding: 40px;" class="about-title">About Title</div>
+        <section class="panel about" id="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Biz Haqimizda</h2>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. </p>
+                </div>
+
+                <div class="row content">
+                    <div class="col-lg-6">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore
+                            magna aliqua.
+                        </p>
+                        <ul>
+                            <li>
+                                <i class="icon green-icon checkmark-done-outline"></i>
+                                Ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat
+                            </li>
+                            <li>
+                                <i class="icon green-icon checkmark-done-outline"></i>
+                                Duis aute irure dolor in reprehenderit in voluptate
+                                velit
+                            </li>
+                            <li>
+                                <i class="icon green-icon checkmark-done-outline"></i>
+                                Ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <p>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in
+                            culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <a href="#" class="btn-learn-more">Learn More</a>
+                    </div>
+                </div>
             </div>
+
+            <!-- ======= Counts Section ======= -->
+            <section id="counts" class="counts section-bg">
+                <div class="container">
+
+                    <div class="row justify-content-end">
+
+                        <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box">
+                                <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="2"
+                                    class="purecounter"></span>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box">
+                                <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="2"
+                                    class="purecounter"></span>
+                                <p>Projects</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box">
+                                <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="2"
+                                    class="purecounter"></span>
+                                <p>Years of experience</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box">
+                                <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="2"
+                                    class="purecounter"></span>
+                                <p>Awards</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section><!-- End Counts Section -->
+
+            <!-- ======= Testimonials Section ======= -->
+            <section id="testimonials" class="testimonials">
+                <div class="container">
+
+                    <div class="section-title">
+                        <h2>Hodimlar</h2>
+                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+                            Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+                            alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    </div>
+
+                    <div class="testimonials-slider swiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <p>
+                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
+                                        suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et.
+                                        Maecen aliquam, risus at semper.
+                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                    </p>
+                                    <img src="./images/employees/testimonials-1.jpg" class="testimonial-img" alt="">
+                                    <h3>Saul Goodman</h3>
+                                    <h4>Ceo &amp; Founder</h4>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <p>
+                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum
+                                        quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat
+                                        irure amet legam anim culpa.
+                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                    </p>
+                                    <img src="./images/employees/testimonials-2.jpg" class="testimonial-img" alt="">
+                                    <h3>Sara Wilsson</h3>
+                                    <h4>Designer</h4>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <p>
+                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
+                                        veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis
+                                        sint minim.
+                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                    </p>
+                                    <img src="./images/employees/testimonials-3.jpg" class="testimonial-img" alt="">
+                                    <h3>Jena Karlis</h3>
+                                    <h4>Store Owner</h4>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <p>
+                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim
+                                        fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore
+                                        quem dolore labore illum veniam.
+                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                    </p>
+                                    <img src="./images/employees/testimonials-4.jpg" class="testimonial-img" alt="">
+                                    <h3>Matt Brandon</h3>
+                                    <h4>Freelancer</h4>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <p>
+                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor
+                                        noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam
+                                        esse veniam culpa fore nisi cillum quid.
+                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                    </p>
+                                    <img src="./images/employees/testimonials-5.jpg" class="testimonial-img" alt="">
+                                    <h3>John Larson</h3>
+                                    <h4>Entrepreneur</h4>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </section><!-- End Testimonials Section -->
         </section>
 
-        <section class="panel">
+        <section class="panel" id="address" style="padding: 30px 0;">
             <div class="contact-panel">
-                <div style="font-size: 40px;padding: 40px;" class="contact-title">Contact Title</div>
+                <!-- ======= Contact Section ======= -->
+                <section id="contact" class="contact">
+                    <div class="container">
+
+                        <div class="section-title">
+                            <h2>Aloqaga chiqish</h2>
+                            <h4 style="padding: 10px;text-align: justify;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolorem mollitia maiores veritatis
+                                deserunt, culpa et quo quibusdam provident molestias esse voluptates consequatur ducimus laboriosam
+                                ullam aliquid deleniti labore a tempora ab recusandae itaque. Quos nulla voluptatem necessitatibus
+                                ut reiciendis suscipit earum laboriosam exercitationem tenetur minima aliquam vero ipsam illum minus
+                                corporis veritatis optio, accusantium sint rem nesciunt praesentium modi placeat. Nisi harum
+                                aspernatur est, ipsam ab, aut maiores impedit nulla, quo in facere voluptatem amet dolorum obcaecati
+                                eius magnam!
+                            </h4>
+                            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+                                quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui
+                                impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        </div>
+
+                        <div>
+                            <iframe 
+                                style="border:0; width: 100%; height: 270px;border: 1px solid slateblue;"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188.58744327295165!2d71.45870268956078!3d40.863115129546394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb3a13f6b43f61%3A0xf384c00cffe913d!2sXalq%20talimi%20bo&#39;limi!5e0!3m2!1sen!2s!4v1651917774244!5m2!1sen!2s" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                frameborder="0" 
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+
+                        <div class="row mt-5">
+
+                            <div class="col-lg-4">
+                                <div class="info">
+                                    <div class="address">
+                                        <i class="bi bi-geo-alt"></i>
+                                        <h4>Location:</h4>
+                                        <p>VF75+7CG, Мингбулакский, Kalgan-Dar'ya, Uzbekistan</p>
+                                    </div>
+
+                                    <div class="email">
+                                        <i class="bi bi-envelope"></i>
+                                        <h4>Email:</h4>
+                                        <p>info@example.com</p>
+                                    </div>
+
+                                    <div class="phone">
+                                        <i class="bi bi-phone"></i>
+                                        <h4>Call:</h4>
+                                        <p>+998 97 156 30 97</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-8 mt-5 mt-lg-0">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <input type="text" name="name" class="form-control" id="name"
+                                                placeholder="Your Name" required>
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <input type="email" class="form-control" name="email" id="email"
+                                                placeholder="Your Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mt-3">
+                                        <input type="text" class="form-control" name="subject" id="subject"
+                                            placeholder="Subject" required>
+                                    </div>
+                                    <div class="form-group mt-3">
+                                        <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                            required></textarea>
+                                    </div>
+                                    <div class="my-3">
+                                        <div class="loading">Loading</div>
+                                        <div class="error-message"></div>
+                                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                                    </div>
+                                    <div class="text-center"><button type="submit">Send Message</button></div>
+                                </form>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section><!-- End Contact Section -->
             </div>
         </section>
 
         <!-- Footer Start -->
         <section class="panel">
-            <div class="footer">
-                <ul class="row">
+            <div class="footer container">
+                <ul class="my-row">
                     <li>
                         <ul class="footer-links h5">
                             <h3>Tezkor</h3>
@@ -150,9 +443,15 @@
         <!-- Footer End -->
     </div>
 
+    <script src="./js/purecounter.js"></script>
+    <script src="./js/aos/aos.js"></script>
     <script src="./js/utility.js"></script>
     <script src="./js/postsData.js"></script>
     <script src="./js/Post.js"></script>
+    <script src="./js/swiper/swiper-bundle.min.js"></script>
+
+    <!-- My Js Code -->
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

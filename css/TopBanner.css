@@ -1,3 +1,9 @@
+.main-background > section.panel.top-bar-panel {
+	margin: 0 !important;
+	border-bottom-left-radius: unset !important;
+	border-bottom-right-radius: unset !important;
+}
+
 .top-bar {
 	overflow: hidden;
 }
@@ -35,96 +41,4 @@
 	color: #fff;
 	padding: 0 8px;
 	font-weight: 300;
-}
-
-.navbar
-{
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-between;
-	padding: 10px 20px;
-}
-
-.navbar > .logo 
-{
-	display: flex;
-	align-items: center;
-
-}
-
-.navbar > .logo > img 
-{
-	width: calc(6vw + 25px);
-	border-radius: 50%;
-}
-
-.navbar .links {
-	height: 100%;
-	display: flex;
-	gap: calc(2vw + 10px);
-	justify-content: space-between;
-	align-items: center;
-	position: relative;
-}
-
-.navbar .links > a {
-	display: inline-block;
-	text-decoration: none;
-}
-
-.navbar .links > a > h4 {
-	color: #000;
-	padding: 20px;
-	width: 60px;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-}
-
-.navbar .links > a > h4::before {
-	content: '';
-	height: 0;
-	width: 100%;
-	transition: all .4s;
-	position: absolute;
-	left: 50%;
-	bottom: 0;
-	transform: translateX(-50%);
-	background: #005eff;
-	border-radius: 10px 10px 0 0;
-}
-
-.navbar .links > a > h4.active::before,
-.navbar .links > a > h4:hover::before {
-	height: 6px;
-}
-
-.navbar .links > a > h4:hover {
-	color: #005eff;
-}
-
-.navbar > .language {
-	display: flex;
-}
-
-.navbar > .language #language {
-	border-radius: 10px;
-	background-color: #AEC4EB;
-	padding: 4px 8px;
-}
-
-.navbar > .language #language option {
-	border-radius: 10px;
-}
-@media screen and (max-width: 420px) {
-	.navbar > .language {
-		order: 1;
-	}
-	.navbar > .links {
-		order: 2;
-		width: 100%;
-	}
 }
