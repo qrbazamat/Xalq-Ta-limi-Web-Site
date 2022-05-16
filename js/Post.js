@@ -13,7 +13,6 @@ const timeFormat = (time = new Date) => {
 
         if (thisDate - timeDate === 1)
             return timeText + ' Kecha';
-
     }
 
     return timeText + ` / ${(timeMonth < 10 ? '0' : '') + timeMonth}.${timeDate}.${timeYear}`;
@@ -29,10 +28,16 @@ const viewsCountFormat = (count = 0) => {
     }
 }
 
-const renderUI = (posts, selectorUI) => {
+const renderUI = (posts = [], selectorUI) => {
     const postWrapper = document.querySelector(selectorUI);
+    let child = postWrapper.lastElementChild;
+    while (child) {
+        console.log(child);
+        postWrapper.removeChild(child);
+        child = postWrapper.lastElementChild;
+    }
 
-    posts.map(post => {
+    posts?.map(post => {
         const postElement = createElement('div', 'post');
         const postImgWrapper = createElement('div', 'post-image-wrapper');
         const postImg = createElement('div', 'post-image');
@@ -40,7 +45,7 @@ const renderUI = (posts, selectorUI) => {
         const openBtnIcon = createElement('i', 'icon white-icon open-outline');
         const img = createElement('img', 'lazy');
         img.loading = 'lazy'
-        const title = createElement('h3', 'title');
+        const title = createElement('h4', 'title');
         const timeViews = createElement('div', 'time-views');
         const time = createElement('div', 'time');
         const views = createElement('div', 'views');
@@ -72,10 +77,6 @@ const renderUI = (posts, selectorUI) => {
         viewsCount.innerText = viewsCountFormat(post.views);
     })
 }
-
-// Render Post to UI
-renderUI(posts, '.posts-wrapper');
-
 
 // Animation Open Post Modal
 const modalPositionState = {
@@ -131,7 +132,7 @@ function createModalContent({title,imgUrl,description,views,createTime, hashtags
     const hashtagsElement = createElement('div', 'hashtags')
     const time = createElement('div', 'time')
     const viewsContainer = createElement('div', 'views')
-    const h1 = createElement('h1', 'title')
+    const h1 = createElement('h3', 'title')
     const viewsIcon = createElement('i', 'icon white-icon eye-outline')
     const spanViews = createElement('span')
     const divParagraphs = createElement('div')
