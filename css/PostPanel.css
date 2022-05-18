@@ -71,10 +71,10 @@
     padding: 5px;
     overflow: hidden;
     text-overflow: ellipsis;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    height: calc((.971563097rem + 0.1971563097vw)*2.5);
+    height: calc((.971563097rem + 0.1971563097vw)*3.5);
 }
 
 @media (min-width: 1200px) {
