@@ -126,7 +126,7 @@
 		background-color: #0d1d2e88;
 		backdrop-filter: blur(5px);
 		width: 100%;
-		padding: 8px 0;
+		padding: 12px 0;
 		justify-content: space-around;
 		border-radius: 10px 10px 0 0;
 	}
