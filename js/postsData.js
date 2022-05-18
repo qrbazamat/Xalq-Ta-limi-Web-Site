@@ -4,6 +4,22 @@ const createPost = (id, title, imgUrl, description, views = 0, createTime, hasht
 
 const postsData = [
     createPost(
+        24,
+        "Namanganda IT maktablarga kompyuter texnikalari topshirildi",
+        "./images/news/3_TIHIScV.jpg",
+        [
+            "Axborot texnologiyalari va kommunikatsiyalarini joriy etish va rivojlantirish vazirligi tomonidan ajratilgan 96 dona kompyuter texnikalari Namangan viloyatiga yetib keldi.",
+            "O'zbekiston Respublikasi Prezidentining \"Axborot texnologiyalari sohasida ta’lim tizimini yanada takomillashtirish, ilmiy tadqiqotlarni rivojlantirish va ularni IT-industriya bilan integratsiya qilish chora-tadbirlari to'g'risida\"gi 2020 yil 6 oktabrdagi PQ-4851 son qarorga muvofiq, Namangan viloyatida 2021 yil tashkil etilgan 6 ta (Uychi tuman 22-DIUM, Norin tuman 34-DIUM, Uchqo'rg'on tuman 2-DIUM, Chortoq tuman 8-DIUM, Pop tuman 40-DIUM, Chust tuman 6-DIUM) \"Informatika va axborot texnologiyalariga ixtisoslashtirilgan maktablari\" uchun kompyuter texnikalari topshirildi."
+        ],
+        20456,
+        new Date("2022-01-29"),
+        [
+            "xtb",
+            "news",
+            "talim"
+        ]
+    ),
+    createPost(
         11,
         "Namanganda umumiy o'rta talim muassasalaridagi yoshlar yetakchilari o'rtasida “Yilning eng faol yoshlar yetakchisi” Respublika ko'rik-tanlovining viloyat bosqichi bo'lib o'tdi.",
         "./images/news/2.jpg",
@@ -124,7 +140,7 @@ const postsData = [
     ),
     createPost(
         5,
-        "alq ta'limi vazirligining Ta'lim jarayonini raqamlashtirish bo'yicha maslahatchisi Rustam Kamilov va Kundalik kompaniyasi metodika boshqarmasi boshlig'i Gulnora Ismailova Chust tumaniga tashrif buyirishdi.",
+        "Xalq ta'limi vazirligining Ta'lim jarayonini raqamlashtirish bo'yicha maslahatchisi Rustam Kamilov va Kundalik kompaniyasi metodika boshqarmasi boshlig'i Gulnora Ismailova Chust tumaniga tashrif buyirishdi.",
         "./images/news/6.jpg",
         [
             "Namangan viloyati Chust tumanida Xalq ta'limi vazirligining Ta'lim jarayonini raqamlashtirish bo'yicha maslahatchisi Rustam Kamilov va Kundalik kompaniyasi metodika boshqarmasi boshlig'i Gulnora Ismailova ishtirokida \"Kundalik avtomatlashtirilgan axborot tiuzimini\" joriy etilgan umumta'lim maktablari uchun o'quv seminarlari  tashkil etildi.  Seminar davomida Namangan viloyati xalq ta'limi boshqarmasi AKT bo'limi boshlig'i A.Usmanov so'zga chiqib ushbu tizim qulayliklar to'g'risida tushunchalar berib o'tdi. R.Komilov kundalik tizimi joriy etish bo'yicha qonuniy hujjatlar to'g'risida tushunchalar berdi hamda bugungi kunda o'rganilgan maktablarning yutuq va kamchiliklari to'g'risida to'xtalib o'tdi. G.Ismoilova tizimda ishlash bo'yicha seminar treningini davomida tizimda o'qituvchi, maktab rahbarlari, ota onalar va o'quvchilar foydalanishidagi vazifalar,  imkoniyatlarini to'liq tushuntirib o'tdi."

@@ -42,7 +42,7 @@
     right: 10px;
     padding: 5px;
     bottom: 10px;
-    background: #597c91aa;
+    background: #000000;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -67,14 +67,14 @@
 
 .post .title {
     font-weight: 600;
-    font-size: calc(.971563097rem + 0.1971563097vw);
+    font-size: calc(.971563097rem + 0.1971563097vw) !important;
     padding: 5px;
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    height: calc((.971563097rem + 0.1971563097vw)*3.5);
+    height: calc((.971563097rem + 0.1971563097vw)*3.8);
 }
 
 @media (min-width: 1200px) {
