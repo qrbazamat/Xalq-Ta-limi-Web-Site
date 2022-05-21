@@ -210,6 +210,11 @@ i.icon.checkmark-done-outline {
    	      mask-image: url(../images/icons/checkmark-done-outline.svg);
 }
 
+i.icon.mail-outline {
+	-webkit-mask-image: url(../images/icons/mail-outline.svg);
+   	      mask-image: url(../images/icons/mail-outline.svg);
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
