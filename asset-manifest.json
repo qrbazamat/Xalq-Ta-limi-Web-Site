@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "./static/css/main.39f5cfd9.css",
-    "main.js": "./static/js/main.0f23b2c9.js",
+    "main.css": "./static/css/main.bdb71703.css",
+    "main.js": "./static/js/main.3c3e4210.js",
+    "static/media/XTB_bg_image.JPG": "./static/media/XTB_bg_image.67e4a8fd1e7cdbbc7cdb.JPG",
     "static/media/UzEDU-Logo.png": "./static/media/UzEDU-Logo.7f33a3d252681bcd1212.png",
     "static/media/2.jpg": "./static/media/2.df82c1e7653515f9a600.jpg",
     "static/media/3_TIHIScV.jpg": "./static/media/3_TIHIScV.87b9a6e95770db4e7f29.jpg",
-    "static/media/bg-main-image.jpeg": "./static/media/bg-main-image.fc36cdd9ada7184d8641.jpeg",
     "static/media/25_3.jpeg": "./static/media/25_3.7d4e550d50f2adff33b5.jpeg",
     "static/media/25_1.jpeg": "./static/media/25_1.538b0b4231df14226882.jpeg",
     "static/media/25_2.jpeg": "./static/media/25_2.47974d2f813552d61402.jpeg",
@@ -23,8 +23,8 @@
     "static/media/staff-7.jpg": "./static/media/staff-7.f4e9092d154a0b8e38ba.jpg",
     "static/media/people-outline.svg": "./static/media/people-outline.4e60910369a903a9d686.svg",
     "static/media/call-outline.svg": "./static/media/call-outline.0f00460152e4a645e393.svg",
-    "static/media/logo-instagram.svg": "./static/media/logo-instagram.3f986527d185ed9ef19e.svg",
     "index.html": "./index.html",
+    "static/media/logo-instagram.svg": "./static/media/logo-instagram.3f986527d185ed9ef19e.svg",
     "static/media/help-circle-outline.svg": "./static/media/help-circle-outline.561e28f6ca63a3c885fd.svg",
     "static/media/eye-outline.svg": "./static/media/eye-outline.dd0d0ce95c0a4e0bd8b1.svg",
     "static/media/location-outline.svg": "./static/media/location-outline.13e7074af7d5c980dc9c.svg",
@@ -37,11 +37,11 @@
     "static/media/paper-plane-outline.svg": "./static/media/paper-plane-outline.93bc96e0f01bbed9a3d5.svg",
     "static/media/open-outline.svg": "./static/media/open-outline.23f7c119e0c2b3e695ac.svg",
     "static/media/checkmark-done-outline.svg": "./static/media/checkmark-done-outline.986522cfd10387bc9f71.svg",
-    "main.39f5cfd9.css.map": "./static/css/main.39f5cfd9.css.map",
-    "main.0f23b2c9.js.map": "./static/js/main.0f23b2c9.js.map"
+    "main.bdb71703.css.map": "./static/css/main.bdb71703.css.map",
+    "main.3c3e4210.js.map": "./static/js/main.3c3e4210.js.map"
   },
   "entrypoints": [
-    "static/css/main.39f5cfd9.css",
-    "static/js/main.0f23b2c9.js"
+    "static/css/main.bdb71703.css",
+    "static/js/main.3c3e4210.js"
   ]
 }
