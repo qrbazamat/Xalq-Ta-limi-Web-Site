@@ -1,24 +1,9 @@
 {
   "files": {
-    "main.css": "./static/css/main.287f896e.css",
-    "main.js": "./static/js/main.adce1eb3.js",
+    "main.css": "./static/css/main.c1790bde.css",
+    "main.js": "./static/js/main.63173392.js",
     "static/media/XTB_bg_image.JPG": "./static/media/XTB_bg_image.67e4a8fd1e7cdbbc7cdb.JPG",
     "static/media/UzEDU-Logo.png": "./static/media/UzEDU-Logo.7f33a3d252681bcd1212.png",
-    "static/media/2.jpg": "./static/media/2.df82c1e7653515f9a600.jpg",
-    "static/media/3_TIHIScV.jpg": "./static/media/3_TIHIScV.87b9a6e95770db4e7f29.jpg",
-    "static/media/25_3.jpeg": "./static/media/25_3.7d4e550d50f2adff33b5.jpeg",
-    "static/media/25_1.jpeg": "./static/media/25_1.538b0b4231df14226882.jpeg",
-    "static/media/25_2.jpeg": "./static/media/25_2.47974d2f813552d61402.jpeg",
-    "static/media/10.jpg": "./static/media/10.462d779474edf6bcacb6.jpg",
-    "static/media/13.jpg": "./static/media/13.fe9fb8f1174696f8a61f.jpg",
-    "static/media/5.jpg": "./static/media/5.991010ec480d60934653.jpg",
-    "static/media/1.jpg": "./static/media/1.13b56245692677ff7758.jpg",
-    "static/media/12.jpg": "./static/media/12.02896d7bff2a5d6c4a82.jpg",
-    "static/media/16_LQva0BD.jpg": "./static/media/16_LQva0BD.0d2f0022d8e37302c672.jpg",
-    "static/media/11.jpg": "./static/media/11.daa7681264a51a67e333.jpg",
-    "static/media/4.jpg": "./static/media/4.a300feb23f64ec073581.jpg",
-    "static/media/3.jpg": "./static/media/3.287b50fa4a36f57214d1.jpg",
-    "static/media/6.jpg": "./static/media/6.bad25702d4ac65de32f7.jpg",
     "static/media/staff-1.jpg": "./static/media/staff-1.f447c66c18d45d8a1c8d.jpg",
     "static/media/staff-7.jpg": "./static/media/staff-7.f4e9092d154a0b8e38ba.jpg",
     "static/media/people-outline.svg": "./static/media/people-outline.4e60910369a903a9d686.svg",
@@ -31,17 +16,18 @@
     "static/media/home-outline.svg": "./static/media/home-outline.8327a4ec11e7212b8a74.svg",
     "static/media/logo-facebook.svg": "./static/media/logo-facebook.84318d1245b58f3c15c8.svg",
     "static/media/flag-outline.svg": "./static/media/flag-outline.8c3b13a976400f62fb2b.svg",
+    "static/media/heart-outline.svg": "./static/media/heart-outline.c1c4496e9c54cd0f6f36.svg",
     "static/media/lock-closed-outline.svg": "./static/media/lock-closed-outline.5d6643db8eb32237cfc1.svg",
     "static/media/mail-outline.svg": "./static/media/mail-outline.413850824ff29c4ae80d.svg",
     "static/media/refresh-outline.svg": "./static/media/refresh-outline.7a70fc720e1222d63228.svg",
     "static/media/paper-plane-outline.svg": "./static/media/paper-plane-outline.93bc96e0f01bbed9a3d5.svg",
     "static/media/open-outline.svg": "./static/media/open-outline.23f7c119e0c2b3e695ac.svg",
     "static/media/checkmark-done-outline.svg": "./static/media/checkmark-done-outline.986522cfd10387bc9f71.svg",
-    "main.287f896e.css.map": "./static/css/main.287f896e.css.map",
-    "main.adce1eb3.js.map": "./static/js/main.adce1eb3.js.map"
+    "main.c1790bde.css.map": "./static/css/main.c1790bde.css.map",
+    "main.63173392.js.map": "./static/js/main.63173392.js.map"
   },
   "entrypoints": [
-    "static/css/main.287f896e.css",
-    "static/js/main.adce1eb3.js"
+    "static/css/main.c1790bde.css",
+    "static/js/main.63173392.js"
   ]
 }
