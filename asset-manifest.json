@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.33f44f65.css",
-    "main.js": "./static/js/main.018c0ee6.js",
+    "main.css": "./static/css/main.4e3a5e23.css",
+    "main.js": "./static/js/main.3b5231f6.js",
     "static/media/XTB_bg_image.JPG": "./static/media/XTB_bg_image.67e4a8fd1e7cdbbc7cdb.JPG",
     "static/media/UzEDU-Logo.png": "./static/media/UzEDU-Logo.7f33a3d252681bcd1212.png",
+    "static/media/otm.png": "./static/media/otm.95f15f687af9c694f697.png",
+    "static/media/iib.png": "./static/media/iib.22f92b71185f5160fdc4.png",
+    "static/media/uzb-gerb.png": "./static/media/uzb-gerb.111a88e033cf19b6eede.png",
+    "static/media/milliy-gvardiya.png": "./static/media/milliy-gvardiya.20cc7d72ec1a6aa7ab91.png",
+    "static/media/prokratura.jpg": "./static/media/prokratura.4bc6f35fc4690d3a16d8.jpg",
     "static/media/staff-1.jpg": "./static/media/staff-1.f447c66c18d45d8a1c8d.jpg",
     "static/media/staff-7.jpg": "./static/media/staff-7.f4e9092d154a0b8e38ba.jpg",
     "static/media/people-outline.svg": "./static/media/people-outline.4e60910369a903a9d686.svg",
@@ -18,17 +23,18 @@
     "static/media/logo-facebook.svg": "./static/media/logo-facebook.84318d1245b58f3c15c8.svg",
     "static/media/flag-outline.svg": "./static/media/flag-outline.8c3b13a976400f62fb2b.svg",
     "static/media/heart-outline.svg": "./static/media/heart-outline.c1c4496e9c54cd0f6f36.svg",
+    "static/media/school-outline.svg": "./static/media/school-outline.f7bc446c75a5c82c1382.svg",
     "static/media/lock-closed-outline.svg": "./static/media/lock-closed-outline.5d6643db8eb32237cfc1.svg",
     "static/media/mail-outline.svg": "./static/media/mail-outline.413850824ff29c4ae80d.svg",
     "static/media/refresh-outline.svg": "./static/media/refresh-outline.7a70fc720e1222d63228.svg",
     "static/media/paper-plane-outline.svg": "./static/media/paper-plane-outline.93bc96e0f01bbed9a3d5.svg",
     "static/media/open-outline.svg": "./static/media/open-outline.23f7c119e0c2b3e695ac.svg",
     "static/media/checkmark-done-outline.svg": "./static/media/checkmark-done-outline.986522cfd10387bc9f71.svg",
-    "main.33f44f65.css.map": "./static/css/main.33f44f65.css.map",
-    "main.018c0ee6.js.map": "./static/js/main.018c0ee6.js.map"
+    "main.4e3a5e23.css.map": "./static/css/main.4e3a5e23.css.map",
+    "main.3b5231f6.js.map": "./static/js/main.3b5231f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.33f44f65.css",
-    "static/js/main.018c0ee6.js"
+    "static/css/main.4e3a5e23.css",
+    "static/js/main.3b5231f6.js"
   ]
 }
