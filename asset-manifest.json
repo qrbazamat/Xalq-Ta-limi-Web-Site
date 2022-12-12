@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.2f8a285d.css",
-    "main.js": "./static/js/main.456da3ba.js",
+    "main.js": "./static/js/main.de434a6c.js",
     "static/media/XTB_bg_image.JPG": "./static/media/XTB_bg_image.b9a2a47e360591aaa430.JPG",
     "static/media/otm.png": "./static/media/otm.95f15f687af9c694f697.png",
     "static/media/UzEDU-Logo.png": "./static/media/UzEDU-Logo.addd20fca2b7b5831bba.png",
@@ -29,10 +29,10 @@
     "static/media/open-outline.svg": "./static/media/open-outline.23f7c119e0c2b3e695ac.svg",
     "static/media/checkmark-done-outline.svg": "./static/media/checkmark-done-outline.986522cfd10387bc9f71.svg",
     "main.2f8a285d.css.map": "./static/css/main.2f8a285d.css.map",
-    "main.456da3ba.js.map": "./static/js/main.456da3ba.js.map"
+    "main.de434a6c.js.map": "./static/js/main.de434a6c.js.map"
   },
   "entrypoints": [
     "static/css/main.2f8a285d.css",
-    "static/js/main.456da3ba.js"
+    "static/js/main.de434a6c.js"
   ]
 }
